@@ -1,4 +1,4 @@
-# NTU Operating Systems Course Projects
+# Operating Systems
 
 This repository contains my projects for the NTU Operating Systems course, including user-level threading, memory management, CPU scheduling, file system enhancements, and RAID simulation.  
 
@@ -8,7 +8,7 @@ This repository contains my projects for the NTU Operating Systems course, inclu
 
 We implement a user-level thread library in the xv6 environment with the help of `setjmp` and `longjmp`. Threads can explicitly yield when they do not need CPU time, and parents can send signals to their children to kill them or trigger signal handlers.
 
-**[Spec: mp1/spec.pdf]**
+[Spec](mp1/spec.pdf)
 
 ---
 
@@ -16,7 +16,7 @@ We implement a user-level thread library in the xv6 environment with the help of
 
 We implement memory allocation and deallocation mechanisms by designing a slab allocator in the xv6 operating system to store small kernel objects.
 
-**[Spec: mp2/spec.pdf]**
+[Spec](mp2/spec.pdf)
 
 ---
 
@@ -24,7 +24,7 @@ We implement memory allocation and deallocation mechanisms by designing a slab a
 
 We implement several CPU scheduling algorithms, including Highest Response Ratio Next, Priority-based Round Robin, Earliest Deadline First with Constant Bandwidth Server, and Deadline-Monotonic scheduling.
 
-**[Spec: mp3/spec.pdf]**
+[Spec](mp3/spec.pdf)
 
 ---
 
@@ -32,6 +32,6 @@ We implement several CPU scheduling algorithms, including Highest Response Ratio
 
 We implement symbolic links and access control for the xv6 file system, and design a RAID structure simulation.
 
-**[Spec: mp4/spec.pdf]**
+[Spec](mp4/spec.pdf)
 
 ---
