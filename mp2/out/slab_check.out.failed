@@ -1,0 +1,2242 @@
+*** Now run 'gdb' in another window.
+
+xv6 kernel is booting
+
+[MP2] Slab size: 3
+[FILE] fileinit
+[SLAB] New kmem_cache (name: file_cache, object size: 504 bytes, at: 0x0000000087f59000, max objects per slab: 8, support in cache obj: 0) is created
+hart 1 starting
+hart 2 starting
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f4e000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f4e018 in slab 0x0000000087f4e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f4e210 in slab 0x0000000087f4e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f4e408 in slab 0x0000000087f4e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f4e600 in slab 0x0000000087f4e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f4e7f8 in slab 0x0000000087f4e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f4e9f0 in slab 0x0000000087f4e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f4ebe8 in slab 0x0000000087f4e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f4ede0 in slab 0x0000000087f4e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f54000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f54018 in slab 0x0000000087f54000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f54210 in slab 0x0000000087f54000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f54408 in slab 0x0000000087f54000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f54600 in slab 0x0000000087f54000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f547f8 in slab 0x0000000087f54000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f549f0 in slab 0x0000000087f54000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f54be8 in slab 0x0000000087f54000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f54de0 in slab 0x0000000087f54000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f40000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f40018 in slab 0x0000000087f40000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f40210 in slab 0x0000000087f40000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f40408 in slab 0x0000000087f40000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f40600 in slab 0x0000000087f40000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f407f8 in slab 0x0000000087f40000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f409f0 in slab 0x0000000087f40000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f40be8 in slab 0x0000000087f40000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f40de0 in slab 0x0000000087f40000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f3f000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f3f018 in slab 0x0000000087f3f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3f210 in slab 0x0000000087f3f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3f408 in slab 0x0000000087f3f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3f600 in slab 0x0000000087f3f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3f7f8 in slab 0x0000000087f3f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3f9f0 in slab 0x0000000087f3f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3fbe8 in slab 0x0000000087f3f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3fde0 in slab 0x0000000087f3f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f3e000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f3e018 in slab 0x0000000087f3e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3e210 in slab 0x0000000087f3e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3e408 in slab 0x0000000087f3e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3e600 in slab 0x0000000087f3e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3e7f8 in slab 0x0000000087f3e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3e9f0 in slab 0x0000000087f3e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3ebe8 in slab 0x0000000087f3e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3ede0 in slab 0x0000000087f3e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f3d000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f3d018 in slab 0x0000000087f3d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3d210 in slab 0x0000000087f3d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3d408 in slab 0x0000000087f3d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3d600 in slab 0x0000000087f3d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3d7f8 in slab 0x0000000087f3d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3d9f0 in slab 0x0000000087f3d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3dbe8 in slab 0x0000000087f3d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f3dde0 in slab 0x0000000087f3d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f37000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f37018 in slab 0x0000000087f37000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f37210 in slab 0x0000000087f37000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f37408 in slab 0x0000000087f37000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f37600 in slab 0x0000000087f37000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f377f8 in slab 0x0000000087f37000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f379f0 in slab 0x0000000087f37000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f37be8 in slab 0x0000000087f37000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f37de0 in slab 0x0000000087f37000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f39000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f39018 in slab 0x0000000087f39000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f39210 in slab 0x0000000087f39000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f39408 in slab 0x0000000087f39000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f39600 in slab 0x0000000087f39000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f397f8 in slab 0x0000000087f39000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f399f0 in slab 0x0000000087f39000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f39be8 in slab 0x0000000087f39000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f39de0 in slab 0x0000000087f39000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f36000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f36018 in slab 0x0000000087f36000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f36210 in slab 0x0000000087f36000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f36408 in slab 0x0000000087f36000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f36600 in slab 0x0000000087f36000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f367f8 in slab 0x0000000087f36000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f369f0 in slab 0x0000000087f36000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f36be8 in slab 0x0000000087f36000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f36de0 in slab 0x0000000087f36000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f35000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f35018 in slab 0x0000000087f35000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f35210 in slab 0x0000000087f35000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f35408 in slab 0x0000000087f35000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f35600 in slab 0x0000000087f35000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f357f8 in slab 0x0000000087f35000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f359f0 in slab 0x0000000087f35000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f35be8 in slab 0x0000000087f35000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f35de0 in slab 0x0000000087f35000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f34000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f34018 in slab 0x0000000087f34000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f34210 in slab 0x0000000087f34000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f34408 in slab 0x0000000087f34000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f34600 in slab 0x0000000087f34000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f347f8 in slab 0x0000000087f34000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f349f0 in slab 0x0000000087f34000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f34be8 in slab 0x0000000087f34000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f34de0 in slab 0x0000000087f34000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f33000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f33018 in slab 0x0000000087f33000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f33210 in slab 0x0000000087f33000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f33408 in slab 0x0000000087f33000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f33600 in slab 0x0000000087f33000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f337f8 in slab 0x0000000087f33000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f339f0 in slab 0x0000000087f33000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f33be8 in slab 0x0000000087f33000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f33de0 in slab 0x0000000087f33000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f32000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f32018 in slab 0x0000000087f32000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f32210 in slab 0x0000000087f32000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f32408 in slab 0x0000000087f32000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f32600 in slab 0x0000000087f32000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f327f8 in slab 0x0000000087f32000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f329f0 in slab 0x0000000087f32000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f32be8 in slab 0x0000000087f32000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f32de0 in slab 0x0000000087f32000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f31000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f31018 in slab 0x0000000087f31000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f31210 in slab 0x0000000087f31000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f31408 in slab 0x0000000087f31000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f31600 in slab 0x0000000087f31000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f317f8 in slab 0x0000000087f31000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f319f0 in slab 0x0000000087f31000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f31be8 in slab 0x0000000087f31000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f31de0 in slab 0x0000000087f31000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f30000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f30018 in slab 0x0000000087f30000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f30210 in slab 0x0000000087f30000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f30408 in slab 0x0000000087f30000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f30600 in slab 0x0000000087f30000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f307f8 in slab 0x0000000087f30000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f309f0 in slab 0x0000000087f30000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f30be8 in slab 0x0000000087f30000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f30de0 in slab 0x0000000087f30000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f2f000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f2f018 in slab 0x0000000087f2f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2f210 in slab 0x0000000087f2f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2f408 in slab 0x0000000087f2f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2f600 in slab 0x0000000087f2f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2f7f8 in slab 0x0000000087f2f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2f9f0 in slab 0x0000000087f2f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2fbe8 in slab 0x0000000087f2f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2fde0 in slab 0x0000000087f2f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f2e000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f2e018 in slab 0x0000000087f2e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2e210 in slab 0x0000000087f2e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2e408 in slab 0x0000000087f2e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2e600 in slab 0x0000000087f2e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2e7f8 in slab 0x0000000087f2e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2e9f0 in slab 0x0000000087f2e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2ebe8 in slab 0x0000000087f2e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2ede0 in slab 0x0000000087f2e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f2d000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f2d018 in slab 0x0000000087f2d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2d210 in slab 0x0000000087f2d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2d408 in slab 0x0000000087f2d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2d600 in slab 0x0000000087f2d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2d7f8 in slab 0x0000000087f2d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2d9f0 in slab 0x0000000087f2d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2dbe8 in slab 0x0000000087f2d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2dde0 in slab 0x0000000087f2d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f2c000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f2c018 in slab 0x0000000087f2c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2c210 in slab 0x0000000087f2c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2c408 in slab 0x0000000087f2c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2c600 in slab 0x0000000087f2c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2c7f8 in slab 0x0000000087f2c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2c9f0 in slab 0x0000000087f2c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2cbe8 in slab 0x0000000087f2c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2cde0 in slab 0x0000000087f2c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f2b000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f2b018 in slab 0x0000000087f2b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2b210 in slab 0x0000000087f2b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2b408 in slab 0x0000000087f2b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2b600 in slab 0x0000000087f2b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2b7f8 in slab 0x0000000087f2b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2b9f0 in slab 0x0000000087f2b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2bbe8 in slab 0x0000000087f2b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2bde0 in slab 0x0000000087f2b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f2a000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f2a018 in slab 0x0000000087f2a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2a210 in slab 0x0000000087f2a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2a408 in slab 0x0000000087f2a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2a600 in slab 0x0000000087f2a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2a7f8 in slab 0x0000000087f2a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2a9f0 in slab 0x0000000087f2a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2abe8 in slab 0x0000000087f2a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f2ade0 in slab 0x0000000087f2a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f29000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f29018 in slab 0x0000000087f29000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f29210 in slab 0x0000000087f29000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f29408 in slab 0x0000000087f29000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f29600 in slab 0x0000000087f29000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f297f8 in slab 0x0000000087f29000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f299f0 in slab 0x0000000087f29000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f29be8 in slab 0x0000000087f29000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f29de0 in slab 0x0000000087f29000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f28000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f28018 in slab 0x0000000087f28000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f28210 in slab 0x0000000087f28000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f28408 in slab 0x0000000087f28000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f28600 in slab 0x0000000087f28000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f287f8 in slab 0x0000000087f28000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f289f0 in slab 0x0000000087f28000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f28be8 in slab 0x0000000087f28000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f28de0 in slab 0x0000000087f28000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f27000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f27018 in slab 0x0000000087f27000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f27210 in slab 0x0000000087f27000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f27408 in slab 0x0000000087f27000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f27600 in slab 0x0000000087f27000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f277f8 in slab 0x0000000087f27000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f279f0 in slab 0x0000000087f27000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f27be8 in slab 0x0000000087f27000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f27de0 in slab 0x0000000087f27000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f26000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f26018 in slab 0x0000000087f26000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f26210 in slab 0x0000000087f26000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f26408 in slab 0x0000000087f26000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f26600 in slab 0x0000000087f26000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f267f8 in slab 0x0000000087f26000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f269f0 in slab 0x0000000087f26000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f26be8 in slab 0x0000000087f26000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f26de0 in slab 0x0000000087f26000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f25000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f25018 in slab 0x0000000087f25000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f25210 in slab 0x0000000087f25000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f25408 in slab 0x0000000087f25000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f25600 in slab 0x0000000087f25000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f257f8 in slab 0x0000000087f25000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f259f0 in slab 0x0000000087f25000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f25be8 in slab 0x0000000087f25000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f25de0 in slab 0x0000000087f25000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f24000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f24018 in slab 0x0000000087f24000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f24210 in slab 0x0000000087f24000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f24408 in slab 0x0000000087f24000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f24600 in slab 0x0000000087f24000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f247f8 in slab 0x0000000087f24000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f249f0 in slab 0x0000000087f24000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f24be8 in slab 0x0000000087f24000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f24de0 in slab 0x0000000087f24000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f23000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f23018 in slab 0x0000000087f23000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f23210 in slab 0x0000000087f23000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f23408 in slab 0x0000000087f23000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f23600 in slab 0x0000000087f23000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f237f8 in slab 0x0000000087f23000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f239f0 in slab 0x0000000087f23000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f23be8 in slab 0x0000000087f23000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f23de0 in slab 0x0000000087f23000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f22000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f22018 in slab 0x0000000087f22000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f22210 in slab 0x0000000087f22000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f22408 in slab 0x0000000087f22000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f22600 in slab 0x0000000087f22000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f227f8 in slab 0x0000000087f22000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f229f0 in slab 0x0000000087f22000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f22be8 in slab 0x0000000087f22000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f22de0 in slab 0x0000000087f22000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f21000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f21018 in slab 0x0000000087f21000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f21210 in slab 0x0000000087f21000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f21408 in slab 0x0000000087f21000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f21600 in slab 0x0000000087f21000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f217f8 in slab 0x0000000087f21000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f219f0 in slab 0x0000000087f21000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f21be8 in slab 0x0000000087f21000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f21de0 in slab 0x0000000087f21000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f20000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f20018 in slab 0x0000000087f20000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f20210 in slab 0x0000000087f20000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f20408 in slab 0x0000000087f20000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f20600 in slab 0x0000000087f20000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f207f8 in slab 0x0000000087f20000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f209f0 in slab 0x0000000087f20000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f20be8 in slab 0x0000000087f20000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f20de0 in slab 0x0000000087f20000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f1f000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f1f018 in slab 0x0000000087f1f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1f210 in slab 0x0000000087f1f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1f408 in slab 0x0000000087f1f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1f600 in slab 0x0000000087f1f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1f7f8 in slab 0x0000000087f1f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1f9f0 in slab 0x0000000087f1f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1fbe8 in slab 0x0000000087f1f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1fde0 in slab 0x0000000087f1f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f1e000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f1e018 in slab 0x0000000087f1e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1e210 in slab 0x0000000087f1e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1e408 in slab 0x0000000087f1e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1e600 in slab 0x0000000087f1e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1e7f8 in slab 0x0000000087f1e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1e9f0 in slab 0x0000000087f1e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1ebe8 in slab 0x0000000087f1e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1ede0 in slab 0x0000000087f1e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f1d000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f1d018 in slab 0x0000000087f1d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1d210 in slab 0x0000000087f1d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1d408 in slab 0x0000000087f1d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1d600 in slab 0x0000000087f1d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1d7f8 in slab 0x0000000087f1d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1d9f0 in slab 0x0000000087f1d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1dbe8 in slab 0x0000000087f1d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1dde0 in slab 0x0000000087f1d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f1c000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f1c018 in slab 0x0000000087f1c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1c210 in slab 0x0000000087f1c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1c408 in slab 0x0000000087f1c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1c600 in slab 0x0000000087f1c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1c7f8 in slab 0x0000000087f1c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1c9f0 in slab 0x0000000087f1c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1cbe8 in slab 0x0000000087f1c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1cde0 in slab 0x0000000087f1c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f1b000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f1b018 in slab 0x0000000087f1b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1b210 in slab 0x0000000087f1b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1b408 in slab 0x0000000087f1b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1b600 in slab 0x0000000087f1b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1b7f8 in slab 0x0000000087f1b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1b9f0 in slab 0x0000000087f1b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1bbe8 in slab 0x0000000087f1b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1bde0 in slab 0x0000000087f1b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f1a000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f1a018 in slab 0x0000000087f1a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1a210 in slab 0x0000000087f1a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1a408 in slab 0x0000000087f1a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1a600 in slab 0x0000000087f1a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1a7f8 in slab 0x0000000087f1a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1a9f0 in slab 0x0000000087f1a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1abe8 in slab 0x0000000087f1a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f1ade0 in slab 0x0000000087f1a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f19000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f19018 in slab 0x0000000087f19000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f19210 in slab 0x0000000087f19000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f19408 in slab 0x0000000087f19000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f19600 in slab 0x0000000087f19000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f197f8 in slab 0x0000000087f19000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f199f0 in slab 0x0000000087f19000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f19be8 in slab 0x0000000087f19000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f19de0 in slab 0x0000000087f19000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f18000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f18018 in slab 0x0000000087f18000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f18210 in slab 0x0000000087f18000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f18408 in slab 0x0000000087f18000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f18600 in slab 0x0000000087f18000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f187f8 in slab 0x0000000087f18000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f189f0 in slab 0x0000000087f18000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f18be8 in slab 0x0000000087f18000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f18de0 in slab 0x0000000087f18000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f17000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f17018 in slab 0x0000000087f17000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f17210 in slab 0x0000000087f17000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f17408 in slab 0x0000000087f17000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f17600 in slab 0x0000000087f17000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f177f8 in slab 0x0000000087f17000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f179f0 in slab 0x0000000087f17000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f17be8 in slab 0x0000000087f17000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f17de0 in slab 0x0000000087f17000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f16000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f16018 in slab 0x0000000087f16000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f16210 in slab 0x0000000087f16000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f16408 in slab 0x0000000087f16000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f16600 in slab 0x0000000087f16000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f167f8 in slab 0x0000000087f16000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f169f0 in slab 0x0000000087f16000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f16be8 in slab 0x0000000087f16000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f16de0 in slab 0x0000000087f16000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f15000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f15018 in slab 0x0000000087f15000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f15210 in slab 0x0000000087f15000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f15408 in slab 0x0000000087f15000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f15600 in slab 0x0000000087f15000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f157f8 in slab 0x0000000087f15000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f159f0 in slab 0x0000000087f15000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f15be8 in slab 0x0000000087f15000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f15de0 in slab 0x0000000087f15000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f14000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f14018 in slab 0x0000000087f14000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f14210 in slab 0x0000000087f14000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f14408 in slab 0x0000000087f14000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f14600 in slab 0x0000000087f14000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f147f8 in slab 0x0000000087f14000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f149f0 in slab 0x0000000087f14000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f14be8 in slab 0x0000000087f14000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f14de0 in slab 0x0000000087f14000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f13000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f13018 in slab 0x0000000087f13000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f13210 in slab 0x0000000087f13000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f13408 in slab 0x0000000087f13000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f13600 in slab 0x0000000087f13000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f137f8 in slab 0x0000000087f13000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f139f0 in slab 0x0000000087f13000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f13be8 in slab 0x0000000087f13000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f13de0 in slab 0x0000000087f13000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f12000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f12018 in slab 0x0000000087f12000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f12210 in slab 0x0000000087f12000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f12408 in slab 0x0000000087f12000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f12600 in slab 0x0000000087f12000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f127f8 in slab 0x0000000087f12000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f129f0 in slab 0x0000000087f12000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f12be8 in slab 0x0000000087f12000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f12de0 in slab 0x0000000087f12000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f11000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f11018 in slab 0x0000000087f11000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f11210 in slab 0x0000000087f11000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f11408 in slab 0x0000000087f11000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f11600 in slab 0x0000000087f11000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f117f8 in slab 0x0000000087f11000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f119f0 in slab 0x0000000087f11000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f11be8 in slab 0x0000000087f11000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f11de0 in slab 0x0000000087f11000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f10000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f10018 in slab 0x0000000087f10000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f10210 in slab 0x0000000087f10000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f10408 in slab 0x0000000087f10000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f10600 in slab 0x0000000087f10000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f107f8 in slab 0x0000000087f10000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f109f0 in slab 0x0000000087f10000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f10be8 in slab 0x0000000087f10000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f10de0 in slab 0x0000000087f10000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f0f000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f0f018 in slab 0x0000000087f0f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0f210 in slab 0x0000000087f0f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0f408 in slab 0x0000000087f0f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0f600 in slab 0x0000000087f0f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0f7f8 in slab 0x0000000087f0f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0f9f0 in slab 0x0000000087f0f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0fbe8 in slab 0x0000000087f0f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0fde0 in slab 0x0000000087f0f000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f0e000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f0e018 in slab 0x0000000087f0e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0e210 in slab 0x0000000087f0e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0e408 in slab 0x0000000087f0e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0e600 in slab 0x0000000087f0e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0e7f8 in slab 0x0000000087f0e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0e9f0 in slab 0x0000000087f0e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0ebe8 in slab 0x0000000087f0e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0ede0 in slab 0x0000000087f0e000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f0d000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f0d018 in slab 0x0000000087f0d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0d210 in slab 0x0000000087f0d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0d408 in slab 0x0000000087f0d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0d600 in slab 0x0000000087f0d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0d7f8 in slab 0x0000000087f0d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0d9f0 in slab 0x0000000087f0d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0dbe8 in slab 0x0000000087f0d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0dde0 in slab 0x0000000087f0d000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f0c000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f0c018 in slab 0x0000000087f0c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0c210 in slab 0x0000000087f0c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0c408 in slab 0x0000000087f0c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0c600 in slab 0x0000000087f0c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0c7f8 in slab 0x0000000087f0c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0c9f0 in slab 0x0000000087f0c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0cbe8 in slab 0x0000000087f0c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0cde0 in slab 0x0000000087f0c000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f0b000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f0b018 in slab 0x0000000087f0b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0b210 in slab 0x0000000087f0b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0b408 in slab 0x0000000087f0b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0b600 in slab 0x0000000087f0b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0b7f8 in slab 0x0000000087f0b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0b9f0 in slab 0x0000000087f0b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0bbe8 in slab 0x0000000087f0b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0bde0 in slab 0x0000000087f0b000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f0a000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f0a018 in slab 0x0000000087f0a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0a210 in slab 0x0000000087f0a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0a408 in slab 0x0000000087f0a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0a600 in slab 0x0000000087f0a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0a7f8 in slab 0x0000000087f0a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0a9f0 in slab 0x0000000087f0a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0abe8 in slab 0x0000000087f0a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f0ade0 in slab 0x0000000087f0a000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f09000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f09018 in slab 0x0000000087f09000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f09210 in slab 0x0000000087f09000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f09408 in slab 0x0000000087f09000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f09600 in slab 0x0000000087f09000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f097f8 in slab 0x0000000087f09000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f099f0 in slab 0x0000000087f09000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f09be8 in slab 0x0000000087f09000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f09de0 in slab 0x0000000087f09000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f08000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f08018 in slab 0x0000000087f08000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f08210 in slab 0x0000000087f08000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f08408 in slab 0x0000000087f08000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f08600 in slab 0x0000000087f08000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f087f8 in slab 0x0000000087f08000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f089f0 in slab 0x0000000087f08000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f08be8 in slab 0x0000000087f08000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f08de0 in slab 0x0000000087f08000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f07000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f07018 in slab 0x0000000087f07000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f07210 in slab 0x0000000087f07000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f07408 in slab 0x0000000087f07000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f07600 in slab 0x0000000087f07000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f077f8 in slab 0x0000000087f07000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f079f0 in slab 0x0000000087f07000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f07be8 in slab 0x0000000087f07000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f07de0 in slab 0x0000000087f07000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f06000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f06018 in slab 0x0000000087f06000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f06210 in slab 0x0000000087f06000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f06408 in slab 0x0000000087f06000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f06600 in slab 0x0000000087f06000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f067f8 in slab 0x0000000087f06000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f069f0 in slab 0x0000000087f06000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f06be8 in slab 0x0000000087f06000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f06de0 in slab 0x0000000087f06000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f05000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f05018 in slab 0x0000000087f05000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f05210 in slab 0x0000000087f05000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f05408 in slab 0x0000000087f05000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f05600 in slab 0x0000000087f05000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f057f8 in slab 0x0000000087f05000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f059f0 in slab 0x0000000087f05000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f05be8 in slab 0x0000000087f05000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f05de0 in slab 0x0000000087f05000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f04000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f04018 in slab 0x0000000087f04000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f04210 in slab 0x0000000087f04000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f04408 in slab 0x0000000087f04000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f04600 in slab 0x0000000087f04000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f047f8 in slab 0x0000000087f04000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f049f0 in slab 0x0000000087f04000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f04be8 in slab 0x0000000087f04000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f04de0 in slab 0x0000000087f04000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f03000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f03018 in slab 0x0000000087f03000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f03210 in slab 0x0000000087f03000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f03408 in slab 0x0000000087f03000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f03600 in slab 0x0000000087f03000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f037f8 in slab 0x0000000087f03000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f039f0 in slab 0x0000000087f03000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f03be8 in slab 0x0000000087f03000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f03de0 in slab 0x0000000087f03000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f02000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f02018 in slab 0x0000000087f02000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f02210 in slab 0x0000000087f02000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f02408 in slab 0x0000000087f02000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f02600 in slab 0x0000000087f02000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f027f8 in slab 0x0000000087f02000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f029f0 in slab 0x0000000087f02000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f02be8 in slab 0x0000000087f02000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f02de0 in slab 0x0000000087f02000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f01000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f01018 in slab 0x0000000087f01000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f01210 in slab 0x0000000087f01000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f01408 in slab 0x0000000087f01000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f01600 in slab 0x0000000087f01000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f017f8 in slab 0x0000000087f01000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f019f0 in slab 0x0000000087f01000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f01be8 in slab 0x0000000087f01000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f01de0 in slab 0x0000000087f01000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087f00000 (file_cache) is allocated
+[SLAB] Object 0x0000000087f00018 in slab 0x0000000087f00000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f00210 in slab 0x0000000087f00000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f00408 in slab 0x0000000087f00000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f00600 in slab 0x0000000087f00000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f007f8 in slab 0x0000000087f00000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f009f0 in slab 0x0000000087f00000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f00be8 in slab 0x0000000087f00000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087f00de0 in slab 0x0000000087f00000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087eff000 (file_cache) is allocated
+[SLAB] Object 0x0000000087eff018 in slab 0x0000000087eff000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eff210 in slab 0x0000000087eff000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eff408 in slab 0x0000000087eff000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eff600 in slab 0x0000000087eff000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eff7f8 in slab 0x0000000087eff000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eff9f0 in slab 0x0000000087eff000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087effbe8 in slab 0x0000000087eff000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087effde0 in slab 0x0000000087eff000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087efe000 (file_cache) is allocated
+[SLAB] Object 0x0000000087efe018 in slab 0x0000000087efe000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efe210 in slab 0x0000000087efe000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efe408 in slab 0x0000000087efe000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efe600 in slab 0x0000000087efe000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efe7f8 in slab 0x0000000087efe000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efe9f0 in slab 0x0000000087efe000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efebe8 in slab 0x0000000087efe000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efede0 in slab 0x0000000087efe000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087efd000 (file_cache) is allocated
+[SLAB] Object 0x0000000087efd018 in slab 0x0000000087efd000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efd210 in slab 0x0000000087efd000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efd408 in slab 0x0000000087efd000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efd600 in slab 0x0000000087efd000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efd7f8 in slab 0x0000000087efd000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efd9f0 in slab 0x0000000087efd000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efdbe8 in slab 0x0000000087efd000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efdde0 in slab 0x0000000087efd000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087efc000 (file_cache) is allocated
+[SLAB] Object 0x0000000087efc018 in slab 0x0000000087efc000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efc210 in slab 0x0000000087efc000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efc408 in slab 0x0000000087efc000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efc600 in slab 0x0000000087efc000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efc7f8 in slab 0x0000000087efc000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efc9f0 in slab 0x0000000087efc000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efcbe8 in slab 0x0000000087efc000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efcde0 in slab 0x0000000087efc000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087efb000 (file_cache) is allocated
+[SLAB] Object 0x0000000087efb018 in slab 0x0000000087efb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efb210 in slab 0x0000000087efb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efb408 in slab 0x0000000087efb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efb600 in slab 0x0000000087efb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efb7f8 in slab 0x0000000087efb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efb9f0 in slab 0x0000000087efb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efbbe8 in slab 0x0000000087efb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efbde0 in slab 0x0000000087efb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087efa000 (file_cache) is allocated
+[SLAB] Object 0x0000000087efa018 in slab 0x0000000087efa000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efa210 in slab 0x0000000087efa000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efa408 in slab 0x0000000087efa000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efa600 in slab 0x0000000087efa000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efa7f8 in slab 0x0000000087efa000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efa9f0 in slab 0x0000000087efa000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efabe8 in slab 0x0000000087efa000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087efade0 in slab 0x0000000087efa000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ef9000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ef9018 in slab 0x0000000087ef9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef9210 in slab 0x0000000087ef9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef9408 in slab 0x0000000087ef9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef9600 in slab 0x0000000087ef9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef97f8 in slab 0x0000000087ef9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef99f0 in slab 0x0000000087ef9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef9be8 in slab 0x0000000087ef9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef9de0 in slab 0x0000000087ef9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ef8000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ef8018 in slab 0x0000000087ef8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef8210 in slab 0x0000000087ef8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef8408 in slab 0x0000000087ef8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef8600 in slab 0x0000000087ef8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef87f8 in slab 0x0000000087ef8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef89f0 in slab 0x0000000087ef8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef8be8 in slab 0x0000000087ef8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef8de0 in slab 0x0000000087ef8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ef7000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ef7018 in slab 0x0000000087ef7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef7210 in slab 0x0000000087ef7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef7408 in slab 0x0000000087ef7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef7600 in slab 0x0000000087ef7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef77f8 in slab 0x0000000087ef7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef79f0 in slab 0x0000000087ef7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef7be8 in slab 0x0000000087ef7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef7de0 in slab 0x0000000087ef7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ef6000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ef6018 in slab 0x0000000087ef6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef6210 in slab 0x0000000087ef6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef6408 in slab 0x0000000087ef6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef6600 in slab 0x0000000087ef6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef67f8 in slab 0x0000000087ef6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef69f0 in slab 0x0000000087ef6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef6be8 in slab 0x0000000087ef6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef6de0 in slab 0x0000000087ef6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ef5000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ef5018 in slab 0x0000000087ef5000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef5210 in slab 0x0000000087ef5000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef5408 in slab 0x0000000087ef5000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef5600 in slab 0x0000000087ef5000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef57f8 in slab 0x0000000087ef5000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef59f0 in slab 0x0000000087ef5000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef5be8 in slab 0x0000000087ef5000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef5de0 in slab 0x0000000087ef5000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ef4000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ef4018 in slab 0x0000000087ef4000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef4210 in slab 0x0000000087ef4000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef4408 in slab 0x0000000087ef4000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef4600 in slab 0x0000000087ef4000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef47f8 in slab 0x0000000087ef4000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef49f0 in slab 0x0000000087ef4000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef4be8 in slab 0x0000000087ef4000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef4de0 in slab 0x0000000087ef4000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ef3000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ef3018 in slab 0x0000000087ef3000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef3210 in slab 0x0000000087ef3000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef3408 in slab 0x0000000087ef3000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef3600 in slab 0x0000000087ef3000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef37f8 in slab 0x0000000087ef3000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef39f0 in slab 0x0000000087ef3000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef3be8 in slab 0x0000000087ef3000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef3de0 in slab 0x0000000087ef3000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ef2000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ef2018 in slab 0x0000000087ef2000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef2210 in slab 0x0000000087ef2000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef2408 in slab 0x0000000087ef2000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef2600 in slab 0x0000000087ef2000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef27f8 in slab 0x0000000087ef2000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef29f0 in slab 0x0000000087ef2000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef2be8 in slab 0x0000000087ef2000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef2de0 in slab 0x0000000087ef2000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ef1000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ef1018 in slab 0x0000000087ef1000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef1210 in slab 0x0000000087ef1000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef1408 in slab 0x0000000087ef1000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef1600 in slab 0x0000000087ef1000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef17f8 in slab 0x0000000087ef1000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef19f0 in slab 0x0000000087ef1000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef1be8 in slab 0x0000000087ef1000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef1de0 in slab 0x0000000087ef1000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ef0000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ef0018 in slab 0x0000000087ef0000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef0210 in slab 0x0000000087ef0000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef0408 in slab 0x0000000087ef0000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef0600 in slab 0x0000000087ef0000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef07f8 in slab 0x0000000087ef0000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef09f0 in slab 0x0000000087ef0000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef0be8 in slab 0x0000000087ef0000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ef0de0 in slab 0x0000000087ef0000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087eef000 (file_cache) is allocated
+[SLAB] Object 0x0000000087eef018 in slab 0x0000000087eef000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eef210 in slab 0x0000000087eef000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eef408 in slab 0x0000000087eef000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eef600 in slab 0x0000000087eef000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eef7f8 in slab 0x0000000087eef000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eef9f0 in slab 0x0000000087eef000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eefbe8 in slab 0x0000000087eef000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eefde0 in slab 0x0000000087eef000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087eee000 (file_cache) is allocated
+[SLAB] Object 0x0000000087eee018 in slab 0x0000000087eee000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eee210 in slab 0x0000000087eee000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eee408 in slab 0x0000000087eee000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eee600 in slab 0x0000000087eee000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eee7f8 in slab 0x0000000087eee000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eee9f0 in slab 0x0000000087eee000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eeebe8 in slab 0x0000000087eee000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eeede0 in slab 0x0000000087eee000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087eed000 (file_cache) is allocated
+[SLAB] Object 0x0000000087eed018 in slab 0x0000000087eed000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eed210 in slab 0x0000000087eed000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eed408 in slab 0x0000000087eed000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eed600 in slab 0x0000000087eed000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eed7f8 in slab 0x0000000087eed000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eed9f0 in slab 0x0000000087eed000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eedbe8 in slab 0x0000000087eed000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eedde0 in slab 0x0000000087eed000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087eec000 (file_cache) is allocated
+[SLAB] Object 0x0000000087eec018 in slab 0x0000000087eec000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eec210 in slab 0x0000000087eec000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eec408 in slab 0x0000000087eec000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eec600 in slab 0x0000000087eec000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eec7f8 in slab 0x0000000087eec000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eec9f0 in slab 0x0000000087eec000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eecbe8 in slab 0x0000000087eec000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eecde0 in slab 0x0000000087eec000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087eeb000 (file_cache) is allocated
+[SLAB] Object 0x0000000087eeb018 in slab 0x0000000087eeb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eeb210 in slab 0x0000000087eeb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eeb408 in slab 0x0000000087eeb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eeb600 in slab 0x0000000087eeb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eeb7f8 in slab 0x0000000087eeb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eeb9f0 in slab 0x0000000087eeb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eebbe8 in slab 0x0000000087eeb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eebde0 in slab 0x0000000087eeb000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087eea000 (file_cache) is allocated
+[SLAB] Object 0x0000000087eea018 in slab 0x0000000087eea000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eea210 in slab 0x0000000087eea000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eea408 in slab 0x0000000087eea000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eea600 in slab 0x0000000087eea000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eea7f8 in slab 0x0000000087eea000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eea9f0 in slab 0x0000000087eea000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eeabe8 in slab 0x0000000087eea000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087eeade0 in slab 0x0000000087eea000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ee9000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ee9018 in slab 0x0000000087ee9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee9210 in slab 0x0000000087ee9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee9408 in slab 0x0000000087ee9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee9600 in slab 0x0000000087ee9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee97f8 in slab 0x0000000087ee9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee99f0 in slab 0x0000000087ee9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee9be8 in slab 0x0000000087ee9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee9de0 in slab 0x0000000087ee9000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ee8000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ee8018 in slab 0x0000000087ee8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee8210 in slab 0x0000000087ee8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee8408 in slab 0x0000000087ee8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee8600 in slab 0x0000000087ee8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee87f8 in slab 0x0000000087ee8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee89f0 in slab 0x0000000087ee8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee8be8 in slab 0x0000000087ee8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee8de0 in slab 0x0000000087ee8000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ee7000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ee7018 in slab 0x0000000087ee7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee7210 in slab 0x0000000087ee7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee7408 in slab 0x0000000087ee7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee7600 in slab 0x0000000087ee7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee77f8 in slab 0x0000000087ee7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee79f0 in slab 0x0000000087ee7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee7be8 in slab 0x0000000087ee7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee7de0 in slab 0x0000000087ee7000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ee6000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ee6018 in slab 0x0000000087ee6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee6210 in slab 0x0000000087ee6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee6408 in slab 0x0000000087ee6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee6600 in slab 0x0000000087ee6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee67f8 in slab 0x0000000087ee6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee69f0 in slab 0x0000000087ee6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee6be8 in slab 0x0000000087ee6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee6de0 in slab 0x0000000087ee6000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] A new slab 0x0000000087ee5000 (file_cache) is allocated
+[SLAB] Object 0x0000000087ee5018 in slab 0x0000000087ee5000 (file_cache) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file_cache
+[SLAB] Object 0x0000000087ee5210 in slab 0x0000000087ee5000 (file_cache) is allocated and initialized
+qemu-system-riscv64: terminating on signal 15 from pid 30805 (make)
